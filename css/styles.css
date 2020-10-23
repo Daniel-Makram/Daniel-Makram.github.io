@@ -69,3 +69,8 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+.Title--Hover:hover{
+	color:#AF3D4E;
+	
+}
