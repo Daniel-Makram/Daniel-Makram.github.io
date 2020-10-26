@@ -4,6 +4,85 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+	overflow: hidden;
+	transition: .3s ease-out;
+	
+}
+
+main>.intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+	align-self: center;
+}
+
+main>.tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.icons-social {
+	align-self: center;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;
+	;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+/*      Colour Hover   */
+
+.Colour--Hover:hover {
+	color: #AF3D4E !important;
+	cursor: pointer;
+}
+
+main:hover {
+	background-color: rgb(46, 40, 40) !important;
+	transition: .5s ease-in;
+	
+	
+}
+
+.Parent {
+	pointer-events: none;
+}
+
+.Child {
+	pointer-events: auto;
+}
+
+
+
+
+/*         MEDIA QUERIES        */
+
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
@@ -26,51 +105,4 @@ html {
 	html {
 		font-size: 20px;
 	}
-}
-
-.icons-social i {
-	font-size: 3em;
-}
-
-/* Custom Styles */
-
-main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
-}
-
-main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
-}
-
-main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
-}
-
-.icons-social i {
-	padding: 10px;
-}
-
-.devto {
-	margin-bottom: -0.20rem;
-}
-
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
-}
-
-.Title--Hover:hover{
-	color:#AF3D4E;
-	
 }
